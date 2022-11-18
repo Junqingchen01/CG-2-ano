@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to play ? </title>
+    <style>
+        body{
+            position: relative;
+            width: 1920px;
+            height: 6257px;
+            overflow: scroll;
+
+            background: #006837;
+        }
+        .fundo{
+            box-sizing: border-box;
+            position: absolute;
+            width: 1920px;
+            height: 1080px;
+            left: 0px;
+            top: 0px;
+        }
+        .tutorial-btn{
+            position: absolute;
+            width: 755px;
+            height: 253px;
+            left: 583px;
+            top: 478px;
+
+            background: #F4EB10;
+            border: 10px solid #ffff;
+            border-radius: 200px;
+
+            font-family: 'Inter'; 
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            color: black;
+            
+        }
+        .hands{
+            position: absolute;
+            width: 869px;
+            height: 242px;
+            left: 50px;
+            top: 1306px;
+
+        }
+
+        .hands-tutorial{
+            position: absolute;
+            width: 845px;
+            height: 463px;
+            left: 1025px;
+            top: 1231px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: balck ;
+
+        }
+
+        .electon{
+            position: absolute;
+            width: 117.18px;
+            height: 242px;
+            left: 185px;
+            top: 1887px;
+        }
+
+        .vidro{
+            position: absolute;
+            width: 162.61px;
+            height: 232.94px;
+            left: 1054px;
+            top: 1896px;
+        }
+
+        .plastico{
+            
+            position: absolute;
+            width: 171.82px;
+            height: 232.94px;
+            left: 158px;
+            top: 2296px;
+        }
+
+        .pilhao{
+            position: absolute;
+            width: 169.85px;
+            height: 232.94px;
+            left: 1050px;
+            top: 2296px;
+        }
+
+        .electron-btn{
+            position: absolute;
+            width: 526px;
+            height: 165px;
+            left: 387px;
+            top: 1929px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            text-align: center;
+
+            background: #F4EB10;
+            border: 10px solid #ffff;
+            border-radius: 50px;
+        }
+        .glass-btn{
+            position: absolute;
+            width: 526px;
+            height: 165px;
+            left: 1282px;
+            top: 1929px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            text-align: center;
+
+            background: #F4EB10;
+            border: 10px solid #ffff;
+            border-radius: 50px;
+
+        }
+
+        .plastic-btn{
+            position: absolute;
+            width: 526px;
+            height: 165px;
+            left: 387px;
+            top: 2329px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            text-align: center;
+
+            background: #F4EB10;
+            border: 10px solid #ffff;
+            border-radius: 50px;
+        }
+
+        .loot-btn{
+            position: absolute;
+            width: 526px;
+            height: 165px;
+            left: 1293px;
+            top: 2329px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            text-align: center;
+
+            background: #F4EB10;
+            border: 10px solid #ffff;
+            border-radius: 50px;
+
+        }
+        .material-show{
+            position: absolute;
+            width: 1728px;
+            height: 234px;
+            left: 96px;
+            top: 2764px;
+        }
+
+        .material-tutorial{
+            position: absolute;
+            width: 1410px;
+            height: 389px;
+            left: 261px;
+            top: 3011px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .fundo2{
+            position: absolute;
+            width: 1920px;
+            height: 1080px;
+            left: 0px;
+            top: 3727px;
+
+        }
+        .material2{
+            position: absolute;
+            width: 1584px;
+            height: 199px;
+            left: 168px;
+            top: 4224px;
+        }
+        .plastico2{
+            position: absolute;
+            width: 261px;
+            height: 360px;
+            left: 791px;
+            top: 4500px;
+        }
+        .pilhao2{
+            position: absolute;
+            width: 258px;
+            height: 360px;
+            left: 780px;
+            top: 4000px;
+
+        }
+
+        .main-tutorial{
+            position: absolute;
+            width: 1475px;
+            height: 559px;
+            left: 196px;
+            top: 4978px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .play{
+            position: absolute;
+            width: 653.08px;
+            height: 216px;
+            left: 633px;
+            top: 5776px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 77px;
+
+            background: #F4EB10;
+            border: 10px solid #FFFFFF;
+            border-radius: 200px;
+        }
+
+       
+            
+        
+        .hands-fundo{
+            position: absolute;
+            width: 843px;
+            height: 463px;
+            left: 1027px;
+            top: 1231px;
+
+            background: #F4EB10;
+            border-radius: 50px;
+            stroke: none;
+        }
+
+        .material-fundo{
+            position: absolute;
+            width: 1410px;
+            height: 350px;
+            left: 261px;
+            top: 3031px;
+
+            background: #F4EB10;
+            border-radius: 50px;
+        }
+
+        .main-fundo{
+            position: absolute;
+            width: 1475px;
+            height: 559px;
+            left: 196px;
+            top: 4978px;
+
+            background: #F4EB10;
+            border-radius: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <img class="fundo" src="./images/cenario.png" alt="">
+    <button class="tutorial-btn">Como jogar ?</button>
+
+    <img class="hands" src="./images/hands.png" alt="">
+
+    <button class="hands-fundo"></button>
+    <div class="hands-tutorial">Controlado pelo jogador, pegue itens.
+        Diferentes mãos (ferramentas) correspondem a diferentes itens.
+    </div>
+
+    <img class="electon" src="./images/electraoBaixo.png" alt="">
+    <img class="vidro" src="./images/vidroBaixo.png" alt="">
+    <img class="plastico"  src="./images/plasticoBaixo.png" alt="">
+    <img class="pilhao"  src="./images/pilhaoBaixo.png" alt="">
+    <button class="electron-btn">Elétron</button>    
+    <button class="glass-btn">Vidro</button>    
+    <button class="plastic-btn">Plástico</button>    
+    <button class="loot-btn">pilhar</button>    
+    
+    <img class="material-show" src="./images/materials.png" alt="">
+
+    <button class="material-fundo"></button>
+    <div class="material-tutorial">Material<br>
+        O jogador precisa identificar e pegá-lo com a mão correta.
+    </div>
+
+
+    <img class="fundo2" src="./images/cenario.png" alt="">
+    <img class="material2" src="./images/materials.png" alt="">
+    <img class="plastico2"  src="./images/plasticoBaixo.png" alt="">
+    <img class="pilhao2"  src="./images/pilhaocima.png" alt="">
+
+    <button class="main-fundo"></button>    
+    <div class="main-tutorial">Os itens aparecerão aleatoriamente na tela, exigindo
+        o jogador para controlar a mão para pegar o item. Toda vez que você consegue
+        um item certo, você receberá pontos, e se você acertar o item errado, você perderá pontos. Alcançar 20 pontos é uma vitória.
+
+    </div>
+
+    <button class="play">Comece o jogo</button>
+    
+
+    <br>
+    <br><br>
+
+</body>
+</html>

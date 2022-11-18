@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            
+            position: relative;
+            width: 1920px;
+            height: 1080px;
+            background: #006837;
+             
+        }
+        
+        .start-play{
+
+            position: absolute;
+            width: 827px;
+            height: 253px;
+            left: 528px;
+            top: 387px;
+
+            background-color: #F4EB10;
+            border: 10px solid #FFFFFF;
+            border-radius: 200px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 96px;
+            line-height: 116px;
+
+            color: black;
+        }
+
+        .fundo{
+            position: absolute;
+            width: 1920px;
+            height: 1080px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .material{
+            position: absolute;
+            width: 1584px;
+            height: 199px;
+            left: 168px;
+            top: 540px;
+
+        }
+
+        .tutorial{
+            position: absolute;
+            width: 181px;
+            height: 181px;
+            left: 1705px;
+            top: 26px;
+
+            background: #F4EB10;
+            border: 10px solid #FFFFFF;
+            border-radius: 200px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 116px;
+
+            color:black;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <img class="fundo" src="./images/cenario.png" alt="">
+    <img class="material" src="./images/materials.png" alt="">
+    
+
+    <button class="start-play">Comece o jogo!</button>  
+
+    <button class="tutorial" onclick="location.replace('tutorial.html')">?</button>
+
+
+   
+</body>
+</html>
